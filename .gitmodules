@@ -1,0 +1,6 @@
+[submodule "card-api"]
+	path = card-api
+	url = https://github.com/mibess/card-api
+[submodule "mibess-cards"]
+	path = mibess-cards
+	url = https://github.com/mibess/mibess-cards
