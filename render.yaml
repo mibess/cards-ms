@@ -1,0 +1,12 @@
+services:
+  # A Docker web service
+  - type: web
+    name: cards-ms
+    runtime: docker
+    repo: https://github.com/mibess/cards-ms
+    branch: main # optional (defaults to master)
+    rootDir: cards-ms
+    dockerCommand: docker compose up -d --build
+    numInstances: 1 # optional (defaults to 1)
+    healthCheckPath: /
+    
