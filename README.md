@@ -70,4 +70,4 @@ Lembrando que as portas:
 
 Devem estar disponíveis
 
-### Agora você deve estar pronto para usar o Mibess Cards localmente em sua máquina!
+### Agora você deve estar pronto para usar a aplicação localmente em sua máquina!
