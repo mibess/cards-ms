@@ -19,6 +19,7 @@ Com essa aplicação podemoso listar, cadastrar, editar e excluir um pensamento.
 **Para mais detalhes verifique as aplicações separadas**
 
 [Cards API](https://github.com/mibess/card-api) Aplicação backend Spring Boot.
+
 [Mibess Frontend](https://github.com/mibess/mibess-cards) Aplicação frontend Angular.
 
 **Acesse o Projeto em Produção no link abaixo**
@@ -58,10 +59,15 @@ docker compose up -d --build
 http://localhost:80
 
 Lembrando que as portas:
+
 **54321** - Postgres
+
 **8080** - Backend
+
 **4200** - Frontend
+
 **80** - Nginx
+
 Devem estar disponíveis
 
 ### Agora você deve estar pronto para usar o Mibess Cards localmente em sua máquina!
